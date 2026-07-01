@@ -1,0 +1,283 @@
+/*home*/
+.beranda{
+	background: linear-gradient(to bottom,white,rgb(73, 112, 73));
+	max-height: 1000px;
+}
+.navbar{
+	background-color: rgb(10, 56, 36);
+}
+ul li:hover{
+	background-color: rgb(88, 123, 88);
+}
+.bulat{
+	width: 400px;
+    height: 400px;
+	border-radius: 50%;
+	display: block;
+    margin: auto;
+	margin-top: 50px;
+}
+.judul{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 50px;						
+	color: rgb(255, 254, 254);
+	text-align: center;																		
+}
+.text{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;						
+	font-size: 25px;						
+	color: rgb(255, 254, 254);						
+	text-align: center;						
+}
+.sosmed{
+				margin-top: 30px;
+				text-align: center;
+			}
+			.sosmedfoto{
+				width: 40px;
+   				display: inline-block;
+    			margin: 0 10px;
+			}
+.menu{
+					color: rgb(88, 123, 88);
+					text-align: center;
+					background-color: rgb(255, 244, 231);
+					font-family:'playfair display', serif;
+				}
+.pilihan{
+								font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+								font-size: 20px;
+								margin-top: 70px;
+								color: rgb(79, 118, 79);
+							}
+							.harga{
+								margin:0;
+								color: rgb(195, 107, 107);
+								font-weight: 700;
+							}
+							.fotomenu{
+								width: 200px;
+							}
+/*Menu*/
+.beranda1{
+				background-color: rgb(255, 244, 231);
+		}
+.menu1{
+					color: rgb(88, 123, 88);
+					text-align: center;
+					background-color: rgb(255, 244, 231);
+					font-family:'playfair display', serif;
+				}
+.pilihan1{
+								font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+								font-size: 20px;
+								margin-top: 70px;
+								color: rgb(79, 118, 79);
+							}
+							.harga1{
+								margin:0;
+								color: rgb(195, 107, 107);
+								font-weight: 700;
+							}
+							.fotomenu1{
+								width: 200px;
+							}
+.kopi{
+			background-color: rgb(48, 73, 48);
+		}
+.foto{
+						display: right;
+						width: 300px;
+						border-radius: 12px;
+					}
+					.menuitem{
+						display: flex;
+    					justify-content: space-between;
+   						border-bottom: 2px solid #d8d2c2;
+    					padding: 5px 0;
+    					width: 500px;
+    					color: white;
+    					font-size: 20px;
+					}
+					.juduldimenu{
+						font-family: 'playfair display', serif;
+						color: white;
+						font-size: 60px;	
+					}
+					.mood{
+						font-family: 'playfair display', serif;
+						color: white;
+						font-size: 60px;
+						text-align: center;
+					}
+/*Galery*/
+.berandagalery{
+			background: rgb(255, 244, 231);
+		}
+.judulkecil{
+					color: rgb(123, 158, 123);
+					font-size: 25px;
+					font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				}
+				.judulgalery{
+					color: rgb(10, 56, 10);
+					font-size: 50px;
+				}
+				.fotogalery{
+					width: 350px;
+					border-radius: 12px;
+					box-shadow: 0 8px 20px;
+				}
+				.galery{
+					transition: 0.3s;
+				}
+				.galery img:hover{
+    				transform: scale(1.05);
+				}
+.spotfoto{
+							width: 250px;
+							border-radius: 12px;
+							box-shadow: 0 8px 20px;
+						}
+						.judulkecilspot{
+							font-size: 25px;
+							font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+							color: rgb(123, 158, 123);
+						}
+						.judulspot{
+							font-size: 50px;
+							font-family:'playfair display', serif;
+							color: rgb(10, 56, 10);
+						}
+						.spot{
+							background: linear-gradient(to bottom,rgb(255, 244, 231), rgb(64, 93, 64));
+							text-align: center;
+							transition: 0.3s;
+						}
+						.spot img:hover{
+    						transform: scale(1.05);
+						}
+.spotfoto{
+							width: 250px;
+							border-radius: 12px;
+							box-shadow: 0 8px 20px;
+						}
+						.judulkecilspot{
+							font-size: 25px;
+							font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+							color: rgb(123, 158, 123);
+						}
+						.judulspot{
+							font-size: 50px;
+							font-family:'playfair display', serif;
+							color: rgb(10, 56, 10);
+						}
+						.spot{
+							background: linear-gradient(to bottom,rgb(255, 244, 231), rgb(64, 93, 64));
+							text-align: center;
+							transition: 0.3s;
+						}
+						.spot img:hover{
+    						transform: scale(1.05);
+						}
+/*kontak*/
+.kontak{
+      background:
+    linear-gradient(rgba(0, 0, 0, 0.721),
+                    rgba(0, 0, 0, 0.721)),
+    url('g4.jpeg');
+      max-height: 100opx;
+    }
+.judulkontak{
+			font-size: 35px;
+			text-align: center;
+			margin-top: 50px;
+			font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			color: rgb(255, 244, 231)
+		}
+.jam{
+			color: rgb(123, 158, 123);
+		}
+		.imgkontak{
+			width: 500px;
+			margin-top: 40px;
+			border-radius: 20px;
+		}
+		.whatsapp{
+			margin-top: 70px;
+			font-size: 20px;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			color: rgb(255, 244, 231);
+		}
+/*tentang*/
+
+.section {
+  display: flex;
+}
+
+.left {
+  background:
+    linear-gradient(rgba(88, 123, 88, 0.473),
+                    rgb(88, 123, 88, 0.473)),
+    url('kontak.jpeg');
+  width: 50%;
+  padding: 120px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left .brand {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color:rgb(255, 255, 255);
+}
+
+.left p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 1.9;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 20px; 
+  text-align: center;
+}
+
+.left .ttd {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.right {
+  width: 50%;
+  position: relative;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/*bgian bwh*/
+.delevery{
+				font-family: cursive;
+				color: rgb(255, 244, 231);
+			}
+			.buka{
+				margin-top: 40px;
+				font-family: cursive;
+				color: rgb(255, 244, 231);
+			}
+			.all{
+				background-color: rgb(88, 123, 88);
+				text-align: center;
+			}
