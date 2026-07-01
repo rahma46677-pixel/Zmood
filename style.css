@@ -1,6 +1,6 @@
 /*home*/
 .beranda{
-	background: linear-gradient(to bottom,white,rgb(73, 112, 73));
+	background: linear-gradient(to bottom,white,rgb(10, 56, 36));
 	max-height: 1000px;
 }
 .navbar{
@@ -210,9 +210,9 @@ ul li:hover{
 			color: rgb(255, 244, 231);
 		}
 /*tentang*/
-
 .section {
   display: flex;
+  margin-top: -20px;
 }
 
 .left {
@@ -281,3 +281,209 @@ ul li:hover{
 				background-color: rgb(88, 123, 88);
 				text-align: center;
 			}
+/*LAPTOP*/
+@media (min-width: 1025px){
+
+    .section{
+        display: flex;
+    }
+
+    .left,
+    .right{
+        width: 50%;
+    }
+
+    .right img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .bulat{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+/*TABLET*/
+@media (max-width:1024px){
+
+    .judul{
+        font-size:40px;
+    }
+
+    .text{
+        font-size:20px;
+    }
+
+    .bulat{
+        width:300px;
+        height:300px;
+    }
+
+    .section{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .left,
+    .right{
+        width:100%;
+    }
+
+    .left{
+        padding:60px 40px;
+    }
+
+    .left p{
+        font-size:18px;
+    }
+
+    .left .ttd{
+        font-size:18px;
+    }
+
+    .right img{
+        width:100%;
+        height:auto;
+        display:block;
+    }
+
+    .imgkontak{
+        width:100%;
+    }
+
+    .fotogalery{
+        width:280px;
+    }
+
+    .spotfoto{
+        width:200px;
+    }
+
+    .foto{
+        width:220px;
+    }
+
+    .menuitem{
+        width:100%;
+        font-size:18px;
+    }
+
+    .juduldimenu,
+    .mood{
+        font-size:45px;
+    }
+}
+
+
+/*HP*/
+@media (max-width:767px){
+
+    .navbar-brand{
+        font-size:18px;
+    }
+
+    .judul{
+        font-size:30px;
+    }
+
+    .text{
+        font-size:18px;
+        padding:0 15px;
+    }
+
+    .bulat{
+        width:200px;
+        height:200px;
+        margin-top:30px;
+    }
+
+    .section{
+        display:flex;
+        flex-direction:column;
+        margin-top:-20px;
+    }
+
+    .left,
+    .right{
+        width:100%;
+    }
+
+    .left{
+        padding:35px 20px;
+    }
+
+    .left .brand{
+        text-align:center;
+    }
+
+    .left p{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .left .ttd{
+        font-size:16px;
+        text-align:center;
+    }
+
+    .right img{
+        width:100%;
+        height:auto;
+        display:block;
+    }
+
+    .fotomenu,
+    .fotomenu1{
+        width:140px;
+    }
+
+    .menuitem{
+        width:100%;
+        font-size:16px;
+    }
+
+    .judulgalery,
+    .judulspot,
+    .juduldimenu,
+    .mood{
+        font-size:32px;
+    }
+
+    .judulkecil,
+    .judulkecilspot{
+        font-size:18px;
+    }
+
+    .fotogalery{
+        width:100px;
+    }
+
+    .spotfoto{
+        width:250px;
+    }
+
+    .imgkontak{
+        width:100%;
+        margin-top:20px;
+    }
+
+    .judulkontak{
+        font-size:28px;
+    }
+
+    .whatsapp{
+        font-size:18px;
+        margin-top:30px;
+    }
+
+    .buka{
+        font-size:22px;
+    }
+
+    .delevery{
+        font-size:16px;
+    }
+}
