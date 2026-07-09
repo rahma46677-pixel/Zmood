@@ -365,11 +365,12 @@ ul li:hover{
     }
 
     .fotogalery{
-        width:280px;
+        width:200px;
     }
 
     .spotfoto{
-        width:200px;
+        width:250px;
+        margin-top: 20px;
     }
 
     .foto{
