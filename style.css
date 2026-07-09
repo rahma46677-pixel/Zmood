@@ -477,8 +477,11 @@ ul li:hover{
     }
 
     .imgkontak{
-        width:100%;
-        margin-top:20px;
+       display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 0;
     }
 
     .judulkontak{
@@ -497,4 +500,10 @@ ul li:hover{
     .delevery{
         font-size:16px;
     }
+    html, body{
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
 }
